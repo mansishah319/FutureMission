@@ -1,0 +1,72 @@
+Extend the existing design-only UI to include the Admin (SFD) interface for the Strategic Foresight platform.
+
+IMPORTANT:
+- Do NOT modify or redesign the Super Admin interface that has already been created.
+- The Admin (SFD) will access the platform via the same landing and login screen.
+- The interface rendered after login must depend on the user’s role associated with their email ID, not on any role selection screen.
+- This is a design-only exercise. No logic or authentication required.
+
+ADMIN (SFD) NAVIGATION STRUCTURE:
+The Admin interface should include the following left-side navigation items:
+- User Management
+- Game Requests
+- Future Scenario
+- Future Retreats
+- Reports
+
+USER MANAGEMENT:
+- The User Management screen for Admin should be visually identical to the Super Admin’s User Management screen.
+- No changes required in layout or interaction for this section.
+
+GAME REQUESTS:
+- Display a list of game requests submitted by Game Masters.
+- Each request card or row should show:
+  - Game Name
+  - Requested By (Game Master name)
+  - Department
+  - Status
+  - View button
+
+- On clicking “View”, open a detailed Game Request page showing:
+  - Game Master name
+  - Department
+  - Number of players
+  - Proposed date and time
+  - Focal issue
+  - Selected theme(s)
+  - Theme explanation
+- Include visual action buttons:
+  - Request Changes / Provide Feedback
+  - Approve Game Request
+- Feedback and approval actions are visual-only.
+
+Future Scenario & Future Retreats:
+- These sections should be visually consistent with the Super Admin views.
+- Show:
+  - Yet to Start
+  - In Progress
+  - Completed sessions
+- Admin should have read-only visibility into sessions and reports.
+
+REPORTS:
+- Split the Reports section into two clear tabs:
+  1. Approval Required
+  2. Published Reports
+
+- Approval Required:
+  - Show reports submitted by Game Masters for approval.
+  - On clicking “View”, display the full report in a readable, structured format.
+  - Provide visual options to:
+    - Add comments / feedback
+    - Approve the report
+
+- Published Reports:
+  - Display all approved reports in a clean, searchable list.
+
+DESIGN GUIDELINES:
+- Maintain the same futuristic, modern, and sophisticated design language as Super Admin.
+- Use subtle color cues to differentiate “Approval Required” vs “Published”.
+- Ensure smooth visual flow and clarity without clutter.
+
+GOAL:
+Create a clear, executive-level Admin interface focused on governance, approvals, and oversight, while preserving the existing Super Admin design exactly as is.

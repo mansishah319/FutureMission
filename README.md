@@ -1,2 +1,1 @@
-# FutureMission
-SFG Future Mission Game
+# sfg-project

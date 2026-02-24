@@ -1,0 +1,295 @@
+IMPORTANT CONSTRAINT
+
+Do NOT modify or redesign any existing screens already created for:
+
+Super Admin
+
+Admin (SFD)
+
+Game Master / Deputy Game Master / Game Coordinator
+
+The login screen remains the same.
+
+Role-based access is automatic:
+
+UI is rendered based on the user’s role after login.
+
+This prompt applies only to:
+
+Expert
+
+Expert
+
+🎨 Design Expectations
+
+Modern, premium, AI-inspired UI
+
+Clean layouts, card-based interactions
+
+Calm, professional, futuristic aesthetic
+
+Smooth transitions and visual progress indicators
+
+Follow Dubai Police Design System v5.0
+
+Use the approved Dubai Police color palette, including secondary and accent colors where appropriate
+
+This is a high-fidelity UI/UX prototype only
+
+🧭 Global Layout for Expert
+
+Fixed Left Sidebar
+
+Dashboard
+
+Future Scenario
+
+Game History / Recap
+
+Leaderboard
+
+Top Bar
+
+Active game indicator (if applicable)
+
+Timer placeholder
+
+Notifications
+
+Profile menu
+
+Main Content Area
+
+Stage-based game flow
+
+Clear progress visualization
+
+🖥️ Screen 1: Expert Dashboard
+
+Purpose: Give players a quick snapshot of their participation.
+
+Dashboard Cards
+
+Total Games Played
+
+Games In Progress
+
+Upcoming / Scheduled Games
+
+Total Points Earned
+
+Secondary Section
+
+Recent Activity
+
+Latest notifications (game start reminders, approvals, results)
+
+🎮 Screen 2: Future Scenario – Games List
+
+Purpose: Let players join scheduled games.
+
+Game Cards
+
+Each card shows:
+
+Game Title
+
+Department
+
+Game Master Name
+
+Scheduled Date & Time
+
+Status:
+
+Yet to Start
+
+In Progress
+
+Completed
+
+Primary CTA: Play Game
+
+🔐 Screen 3: Join Game
+
+Modal or page with:
+
+Game Code input field
+
+Join button
+
+After successful entry, player is taken into the live game flow
+
+🧠 Screen 4: Active Game – Focal Topic Entry
+
+Layout:
+
+Right Panel: List of participants
+
+Main Area: Focal topic submission card
+
+Actions:
+
+Enter focal topic within visible timer
+
+View submitted focal topics (read-only)
+
+Proceed to voting stage
+
+🗳️ Screen 5: Focal Topic Voting
+
+Cards for each submitted focal topic
+
+Expert can vote for only one
+
+Timer shown (color-based, no hard cutoff)
+
+After GM selection:
+
+Selected focal topic is highlighted
+
+Expert moves to next stage
+
+🧩 Screen 6: Theme Assignment (Read-only)
+
+Expert sees:
+
+Assigned theme
+
+Other themes in the game
+
+Visual indicator showing:
+
+“You are contributing under: [Theme Name]”
+
+⚠️ Screen 7: Challenges Submission
+
+Expert enters challenges under their assigned theme
+
+Submitted challenges shown as cards
+
+Status indicators:
+
+Submitted
+
+Approved by GM
+
+Consolidated
+
+📊 Screen 8: Impact & Probability Voting
+
+Voting interface for all approved challenges
+
+Sliders or selectors:
+
+Impact (1–5)
+
+Probability (1–5)
+
+Expert sees:
+
+Submission confirmation
+
+Progress indicator for voting completion
+
+🏆 Screen 9: Theme Results (Read-only)
+
+Cards showing:
+
+Theme Name
+
+Total Points
+
+Highlight:
+
+Top 2 themes selected by GM
+
+Expert can drill down to see:
+
+Challenges
+
+Ratings
+
+📝 Screen 10: Key Event Summary
+
+Structured form for:
+
+Key Events
+
+Risks
+
+Opportunities
+
+Implications
+
+Summary Narrative
+
+Actions:
+
+Save Draft
+
+Submit Final Summary
+
+📄 Screen 11: Game Completion & Report View
+
+Confirmation screen:
+
+“Game Completed”
+
+Expert can:
+
+View consolidated report (read-only)
+
+Navigate through game stages
+
+🏅 Screen 12: Leaderboard
+
+Purpose: Motivate participation and learning.
+
+Leaderboard Table
+
+For each game:
+
+Game Name
+
+Department
+
+Game Master
+
+Points Earned
+
+Rank / Badge (if any)
+
+Cumulative view:
+
+Total points across all games
+
+Badges earned
+
+🔁 Screen 13: Game History & Recap
+
+List of completed games
+
+Expert can:
+
+View full game recap
+
+Review their own inputs
+
+Read final reports
+
+🧠 UX Notes
+
+Emphasize clarity and flow
+
+Show which stage the player is in at all times
+
+Use visual cues instead of heavy text
+
+Design should feel intelligent, calm, and authoritative
+
+🧾 Final Instruction to Replit
+
+Create high-fidelity UI designs only for the Expert / Expert roles.
+Do not alter any existing Super Admin, Admin, or Game Master designs.
+Focus on a modern, elegant, AI-inspired experience optimized for participation, voting, and insight generation.

@@ -1,0 +1,90 @@
+You are designing a premium, enterprise-grade user interface for a Strategic Foresight platform.
+This is a DESIGN-ONLY task.
+
+DESIGN GOAL:
+The UI must feel modern, futuristic, clean, and executive-level — similar to high-end SaaS platforms used by governments and global enterprises.
+Avoid default layouts, generic cards, or basic dashboards.
+
+Use the attached reference image as a benchmark for:
+- Visual sophistication
+- Typography hierarchy
+- White space usage
+- Minimalist yet expressive design
+
+DESIGN PRINCIPLES TO FOLLOW:
+
+1. VISUAL LANGUAGE
+- Use large, confident typography for headings.
+- Use subtle gradients, soft shadows, and glassmorphism effects.
+- Prefer blurred backgrounds, layered surfaces, and depth.
+- Avoid boxed layouts; use floating panels and modular sections.
+- Design should feel calm, authoritative, and intelligent.
+
+2. LAYOUT & COMPOSITION
+- Use asymmetrical layouts where appropriate.
+- Left navigation should be slim, icon-driven, and visually quiet.
+- Main content area should breathe — generous spacing, clear sections.
+- Avoid clutter. Every element must earn its place.
+
+3. COLOR & BRAND TREATMENT
+- Follow the Dubai Police color palette and design system.
+- Use primary colors sparingly for emphasis.
+- Use secondary and sub-colors for data states, highlights, and accents.
+- Apply color through gradients, dividers, hover states, and micro-highlights — not heavy fills.
+
+4. TYPOGRAPHY
+- Use a modern sans-serif font system.
+- Clear hierarchy:
+  - Page titles: large and bold
+  - Section headers: medium weight
+  - Body text: light and readable
+- Avoid dense text blocks. Use short descriptions and spacing.
+
+5. COMPONENT STYLE
+- Cards should:
+  - Have soft rounded corners
+  - Subtle shadow or frosted-glass effect
+  - Clear title, meta information, and action area
+- Buttons should:
+  - Be minimal, with hover and focus states
+  - Avoid heavy borders
+- Tables should:
+  - Feel lightweight
+  - Use dividers and spacing instead of strong grid lines
+
+6. MOTION & INTERACTION (VISUAL ONLY)
+- Design for smooth transitions:
+  - Hover elevation
+  - Fade-in sections
+  - Slide transitions between states
+- Avoid abrupt changes.
+
+7. AI / FUTURISTIC FEEL
+- Use visual cues that imply intelligence:
+  - Subtle data glow
+  - Progress indicators
+  - Context panels
+- Avoid literal AI icons or gimmicks.
+
+SCREENS TO DESIGN (NO LOGIC):
+- Landing / Login screen:
+  - Split layout with content on left, login on right
+  - Futuristic background
+  - Minimal fields (username, password)
+- Super Admin Dashboard:
+  - High-level metric cards
+  - Elegant navigation
+- Admin Dashboard:
+  - Clean workflow-focused views
+- Future Scenario & Retreat overview screens
+- User Management screen with refined table design
+
+STRICTLY AVOID:
+- Bootstrap-style layouts
+- Generic admin templates
+- Overuse of icons
+- Flat, lifeless UI
+- Dense information walls
+
+DELIVERABLE:
+High-fidelity UI mockups rendered in code, focusing on layout, spacing, typography, and visual polish — not functionality.

@@ -1,0 +1,287 @@
+We need to implement the Future Retreat module end-to-end, supporting all roles with proper permissions, workflows, and UI consistency similar to Future Scenario.
+
+1. Roles & Access
+Super Admin
+
+View all retreat sessions
+
+Monitor activity across departments
+
+Platform governance only (no content editing)
+
+Admin
+
+Approve / reject retreat requests
+
+Monitor live sessions
+
+Open any retreat table
+
+Review & approve final consolidated report
+
+Future Designer (FD)
+
+Create retreat sessions
+
+Manage multiple retreat tables simultaneously
+
+Switch between tables dynamically
+
+Add/edit data inside tables
+
+Consolidate table reports into final report
+
+Submit final report to Admin
+
+Game Master (GM) / Deputy GM
+
+Support FD during retreat
+
+Input / modify data
+
+Participate in voting
+
+Assist with report drafting
+
+Game Coordinator (GC)
+
+Act as FD shadow
+
+Enter data on behalf of players
+
+Manage table operations
+
+Experts / Experts
+
+Join retreat via code or assignment
+
+View linked source report
+
+Vote on impact & probability
+
+Participate in discussions (read/write where allowed)
+
+2. Retreat Creation Flow
+Screen 1 – Create Retreat (FD/GM/DGM)
+
+Inputs:
+
+Retreat title
+
+Department
+
+Sub-departments
+
+Description
+
+Linked source:
+
+Future Scenario Report
+
+OR SFA collateral
+
+OR Standalone
+
+Action:
+
+Submit for Admin approval
+
+3. Admin Approval Flow
+
+Admin dashboard:
+
+View pending retreat requests
+
+Approve OR request revisions
+
+On approval:
+
+System auto-generates retreat tables
+
+One table per selected sub-department
+
+4. Retreat Tables Management
+
+System behavior:
+
+Auto-create tables based on sub-departments
+
+No restriction on player department
+
+FD can:
+
+Jump between tables
+
+Manage multiple tables at once
+
+Each table supports:
+
+FD (mandatory)
+
+GC
+
+GM (optional)
+
+Unlimited players
+
+5. Expert Onboarding
+
+Admin / FD can:
+
+Manually assign participants
+
+Experts can join via:
+
+Retreat code
+
+Direct assignment
+
+6. Retreat Session UI (Table Level)
+
+Each table screen must show:
+
+Data Entry Sections
+
+Work Issues
+
+Future Challenges
+
+Future Opportunities
+
+Future Risks
+
+Roles allowed to input/edit:
+
+FD
+
+GC
+
+GM
+
+DGM
+
+7. Voting & Scoring
+
+All players:
+
+Vote on:
+
+Impact (1–5)
+
+Probability (1–5)
+
+System:
+
+Auto-calculates scores
+
+Auto-ranks items by priority
+
+8. Table-Level Report
+
+For each table:
+
+Auto-generate report including:
+
+All inputs
+
+Rankings
+
+Notes
+
+Decisions
+
+FD/GC can:
+
+Edit
+
+Save draft
+
+Submit
+
+9. Consolidated Retreat Report
+
+Lead FD:
+
+Merge all table reports
+
+Identify cross-table patterns
+
+Draft final report
+
+Actions:
+
+Submit to Admin
+
+Admin reviews:
+
+Approve
+
+Request changes
+
+10. Monitoring Dashboard
+
+Admin & Super Admin:
+
+View active retreats
+
+Open any table
+
+Monitor real-time inputs
+
+See status:
+
+Pending
+
+In Progress
+
+Completed
+
+11. Navigation & UX
+
+Multi-table dashboard for FD
+
+Visual table status indicators
+
+Progress tracker similar to Future Scenario
+
+Role-based UI rendering
+
+12. Game Closure
+
+After approval:
+
+Publish final retreat report
+
+Lock session
+
+Enable:
+
+View report
+
+Recap mode
+
+Expected Output
+
+Fully functional Future Retreat module
+
+Role-based access
+
+Live voting
+
+Auto scoring
+
+Auto table creation
+
+Report generation
+
+Admin governance
+
+Business Objective
+
+Structured foresight discussions
+
+Data-driven prioritization
+
+Cross-department collaboration
+
+High-quality strategic insights
